@@ -1,0 +1,15 @@
+{
+  "name": "perflog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Brent Lineberry",
+  "license": "ISC",
+  "dependencies": {
+    "sywac": "^1.2.1"
+  },
+  "bin": "app.js"
+}
