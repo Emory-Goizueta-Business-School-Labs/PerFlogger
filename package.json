@@ -9,7 +9,6 @@
   "author": "Brent Lineberry",
   "license": "ISC",
   "dependencies": {
-    "sywac": "^1.2.1"
   },
   "bin": "app.js"
 }
