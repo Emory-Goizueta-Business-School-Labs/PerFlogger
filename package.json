@@ -4,11 +4,24 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "listCompetencies": "node ./scripts/listCompetencies.js",
+    "listLogItems": "node ./scripts/listLogItems.js",
+    "add": "node ./scripts/addLogItem.js",
+    "cli": "node ./scripts/cli.js"
   },
   "author": "Brent Lineberry",
   "license": "ISC",
   "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/sequelize": "^4.27.31",
+    "@types/sprintf": "^0.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "dotenv": "^6.1.0",
+    "sequelize": "^4.41.2",
+    "sprintf": "^0.1.5",
+    "sqlite3": "^4.0.4"
   },
   "bin": "app.js"
 }
