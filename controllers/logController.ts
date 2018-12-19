@@ -49,12 +49,7 @@ export default class LogController {
             let idInt = parseInt(i, 10);
 
             return this.logRepo.getById(idInt)
-            .then(item => {
-                if (item === null) {
-                    return new Promise(resolve => resolve(item);
-                }
-                return this.logRepo.delete(item).then(item => item);
-            });
+            .then(this.deleteItem);
         });
 
         Promise.all(promises)
@@ -62,8 +57,19 @@ export default class LogController {
         .catch(views.error);
     }
 
+    private deleteItem(item: LogItem | null): Promise<LogItem | null> {
+        if (item === null) {
+            return new Promise(resolve => resolve(item));
+        }
+
+        return this.logRepo.delete(item);
+    }
+
     public print(path: string) {
         this.logRepo.get().then(items => {
+            if (typeof items === 'undefined') {
+                return;
+            }
             files.log(items, path);
         });
     }

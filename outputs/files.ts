@@ -32,7 +32,7 @@ function itemToHtmlTableRow(item: LogItem): string {
     `;
 }
 
-export function log(items: LogItem[], path: string): Promise<void> {
+export function log(items: (LogItem | null)[], path: string): Promise<void> {
     return new Promise((resolve, reject) => {
         let stream = fs.createWriteStream(`${ path }/log-${ new Date().toISOString() }.md`);
         let p = writeToStream("# Performance Log\n", stream);
@@ -46,8 +46,12 @@ export function log(items: LogItem[], path: string): Promise<void> {
         });
 
         for (let i = 0; i < items.length; i++) {
+            if (items[i] === null) {
+                continue;
+            }
+
             p = p.then(() => {
-                writeToStream(itemToHtmlTableRow(items[i]), stream);
+                writeToStream(itemToHtmlTableRow(items[i]!), stream);
             });
         }
 
