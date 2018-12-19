@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "title": "Delivering Results",
+        "descriptions": [
+            {
+                "title": "Productivity",
+                "text": "Strives to consistently achieve excellence in all tasks and goals. Maintains focus and perseveres in the face of obstacles. Uses time efficiently and responds quickly and constructively when confronted with challenges. Prioritizes tasks based on importance."
+            },
+            {
+                "title": "Personal Growth",
+                "text": "Ensures job knowledge and skills are current and valuable. Receptive to feedback."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Problem Solving",
+        "descriptions": [
+            {
+                "title": "Decision Making and Reasoning",
+                "text": "Considers multiple sides of an issue. Weighs consequences before making final decision. Makes informed decisions based on available information. Recognizes issues, and determines actions needed to advance the decision making process. Follows up as necessary."
+            },
+            {
+                "title": "Ability",
+                "text": "Not discouraged by ambiguous situations. Is open to new ideas and processes. Adjusts approach to achieve results."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Functional Knowledge and Skills",
+        "descriptions": [
+            {
+                "text": "Demonstrates skills and knowledge relevant to one's own function or work group. Applies current best practices in discipline or specialty area. Stays aware of major developments in discipline or specialty area. Recognized by customers and team members for functional knowledge and skills."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Service to Others/Customer Focus",
+        "descriptions": [
+            {
+                "text": "Listens to customers (internal and external) and addresses needs and concerns. Keeps customers informed by providing status reports and progress updates. Delivers on service commitments. Meets established or agreed upon deadlines. Maintains supportive relationships with customers. Uses initiative to improve outcomes, processes, or measurements. "
+            }    
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Building Trust",
+        "descriptions": [
+            {
+                "title": "Honest",
+                "text": "Behaves and expresses oneself in an open and honest manner. Is consistent in word and actions. Tells the truth even when it is difficult. Shares information accurately, completely and appropriately."
+            },
+            {
+                "title": "Committed",
+                "text": "Follows through on assignments and commitments. Supports Emory goals and initiatives. Adheres to all policies and procedures."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Collaboration",
+        "descriptions": [
+            {
+                "title": "Respect",
+                "text": "Treats all people with dignity, respect and fairness. Resolves interpersonal conflicts constructively. Shares time, energy and knowledge with others to ensure they can succeed."
+            },
+            {
+                "title": "Inclusiveness",
+                "text": "Demonstrates awareness and respect of cultural and individual values. Appreciates and leverages the strengths of others to accomplish goals, regardless of background. Listens to ideas from others, even when different from own. Is careful to ensure all sides are heard before reaching a conclusion."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Communication",
+        "descriptions": [
+            {
+                "title": "Listens and Shares",
+                "text": "Provides regular, consistent, and meaningful information. Listens carefully to others and ensures message is understood. Ensures important matters are shared with all appropriate parties."
+            },
+            {
+                "title": "Clarity",
+                "text": "Communicates in a clear and concise manner. Uses appropriate grammar, pronunciation and tone to enhance understanding. Demonstrates professionalism through body language, including eye-contact and posture. Tailors communication style to needs of the recipient.  "
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Taking Initiative",
+        "descriptions": [
+            {
+                "text": "Responds appropriately on own to improve outcomes, processes or measurements. Assumes responsibility and leadership when asked. Accomplishes goals independently, with little need for supervision. Takes ownership and accountability for own performance. Seeks out and/or accepts additional responsibilities in the context of the job."
+            }    
+        ]
+    }
+]
