@@ -80,3 +80,4 @@ package-lock.json
 
 *.js
 *.md
+data/database.sqlite
