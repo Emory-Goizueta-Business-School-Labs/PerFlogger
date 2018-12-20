@@ -23,5 +23,11 @@ Commands:
   set <key>=<value>
 ```
 
+## Roadmap
+- **v1.0:** everything needed to output a document that matches the available performance log document
+- List items by competency
+- "Groom" items by rolling individual items into higher-level, longer-term work
+- Associate other employees with tasks
+
 ## Version 
 * 0.1
