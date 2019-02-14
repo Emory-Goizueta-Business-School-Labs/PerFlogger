@@ -1,14 +1,17 @@
 import Sequelize from 'sequelize';
 import LogItem from './sequelizeModels/logItem';
+import Log from './sequelizeModels/log';
 import Setting from './sequelizeModels/setting';
 import { CompetencyRepository } from './competencyRepository';
 import { LogItemsRepository } from './logItemsRepository';
 import SettingsRepository from './settingsRepository';
 import SequelizeRepository from './sequelizeRepository';
+import { LogRepository } from './logRepository';
 
 export class Data {
     private sequelize: Sequelize.Sequelize;
     public competencies: CompetencyRepository;
+    public logs: LogRepository;
     public logItems: LogItemsRepository;
     public settings: SettingsRepository;
 
@@ -24,6 +27,7 @@ export class Data {
 
         this.competencies = new CompetencyRepository();
         this.logItems = new LogItemsRepository(LogItem(this.sequelize), this.competencies);
+        this.logs = new LogRepository(Log(this.sequelize), this.logItems);
         this.settings = new SettingsRepository(new SequelizeRepository(Setting(this.sequelize)));
     }
 
